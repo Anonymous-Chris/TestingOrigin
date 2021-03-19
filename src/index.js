@@ -27,7 +27,7 @@ const App = () => {
             </div>
         </div>
         <div className="row">
-            <div>
+            <div className="shift">
                 <Shifts/>
             </div>
 

@@ -30,6 +30,5 @@ function my_theme_enqueue_styles() {
         time(), //For production use wp_get_theme()->get('Version')        
         true
       );
-  
 }
 

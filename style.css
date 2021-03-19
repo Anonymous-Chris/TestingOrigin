@@ -78,3 +78,53 @@ white-space: nowrap;
 background-color: #00CC99;
 outline: 1px solid #214E5B;
 }
+
+.shift{
+  margin: auto;
+  width: 98%;
+  border: 3px solid gray;
+  padding: 10px;
+  text-align: center;
+  height: 50vh;
+}
+
+.carousel {
+  background:transparent;
+  margin-bottom: 0;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 435px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.carousel-nav{
+  font-size: 1.1rem;
+  top: 30px;
+  left: 0px;
+  margin-bottom: 20px;
+}
+.carousel-nav .carousel-cell {
+  height: 1.8rem;
+  width: 100px;
+}
+
+.carousel-nav .carousel-cell.is-nav-selected {
+  background:#5150F1;
+}
+
+.flickity-button {
+  display: none;
+}
