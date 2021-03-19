@@ -7,4 +7,4 @@ const App1 = () => {
     </div>
     );
 };
-render( <App1/> , document.getElementById(`react-chris`));
+render( <App1/> , document.getElementById(`react-main2`));

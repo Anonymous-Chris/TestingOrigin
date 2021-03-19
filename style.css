@@ -10,6 +10,71 @@
  Text Domain:  twentytwentychild
 */
 
-div {
-    color: green;
+  
+   .table-dark td, .table-dark th, .table-dark thead th {
+    border-color: #454d55;
+  }
+  table thead tr th{
+    position: sticky;
+    top: 0;
+    background-color: gray;
+  }
+
+  table tbody{
+      height: 30vh;
+      overflow-y: scroll;
+  }
+  
+  .card-titlel6{
+    color: black;
+  }
+  
+   .modul_col_2{
+    background-color: #212124;
+    width: 59.85vw;
+  
+   } 
+  
+   .graphSize{
+     width: 100%;
+     height: 100%;
+   }
+
+   .scroll table thead tr th{
+    position: sticky;
+    top: 0;
+    background-color: gray;
+  
+  }
+
+
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+   max-width: 100vw;
+   width: auto;
+}
+
+.scroll {  
+  height: 30vh;
+  overflow-y: scroll;
+  margin-bottom: 15px;
+
+
+}
+.scroll th, td {
+white-space: nowrap;
+}
+
+.scroll::-webkit-scrollbar {
+  width: .25em;
+  height: .25em;
+}
+
+.scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+          box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+background-color: #00CC99;
+outline: 1px solid #214E5B;
 }
