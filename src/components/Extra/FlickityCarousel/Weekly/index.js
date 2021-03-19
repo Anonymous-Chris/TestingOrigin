@@ -1,5 +1,5 @@
 
-import ChartLayout from '../ChartLayout/index';
+import ChartLayout from '../../ChartLayout/index';
 
 const Weekly = ()=>{
   const data = [

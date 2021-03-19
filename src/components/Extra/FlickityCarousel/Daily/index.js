@@ -1,5 +1,5 @@
 
-import ChartLayout from '../ChartLayout/index';
+import ChartLayout from '../../ChartLayout/index';
 
 const Daily = ()=>{
     const data = [
@@ -59,7 +59,7 @@ const Daily = ()=>{
             <ChartLayout data={data}/>
             </div>
             <div className="col-3">
-                
+            
             </div>
         </div>
         );

@@ -1,7 +1,7 @@
 
-import Daily from '../Extra/Daily/index';
-import Hourly from '../Extra/Hourly/index';
-import Weekly from '../Extra/Weekly/index';
+import Daily from '../Extra/FlickityCarousel/Daily/index';
+import Hourly from '../Extra/FlickityCarousel/Hourly/index';
+import Weekly from '../Extra/FlickityCarousel/Weekly/index';
 import Flickity from "react-flickity-component";
 import "flickity/dist/flickity.min.css";
 import 'flickity-as-nav-for';
