@@ -1,6 +1,6 @@
 
 import ChartLayout from '../../ChartLayout/index';
-
+import DatePicker from '../../Pickers/DatePicker/index';
 const Weekly = ()=>{
   const data = [
     {
@@ -59,7 +59,7 @@ const Weekly = ()=>{
             <ChartLayout data={data}/>
             </div>
             <div className="col-3">
-                
+                <DatePicker/>
             </div>
         </div>
         );

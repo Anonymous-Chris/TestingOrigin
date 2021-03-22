@@ -25,10 +25,12 @@
     "apollo-boost": "^0.4.4",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "date-fns": "^2.19.0",
     "flickity-as-nav-for": "^2.0.1",
     "graphql": "^14.5.8",
     "react-bootstrap": "^1.5.2",
     "react-flickity-component": "^3.6.1",
+    "react-timeline-range-slider": "^1.2.0",
     "recharts": "^2.0.8"
   }
 }

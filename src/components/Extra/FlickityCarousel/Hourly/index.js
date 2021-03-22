@@ -1,5 +1,6 @@
 
 import ChartLayout from '../../ChartLayout/index';
+import TimeSlider from '../../Pickers/TimeSlider/index';
 
 const Hourly = ()=>{
   const data = [
@@ -60,7 +61,7 @@ const Hourly = ()=>{
             <ChartLayout data={data}/>
             </div>
             <div className="col-3">
-                
+                <TimeSlider/>
             </div>
         </div>
         );
